@@ -1,0 +1,377 @@
+/*Extra Large devices (desktops, greater than 1200px) - Class : XL*/
+@media (max-width: 1700px) {
+
+header.home {background-position: 140% 0; }
+
+
+}
+
+/*----- Max-width 1500 -----*/
+
+@media (max-width: 1500px) {
+section.download-spotJobs figure img {width: 70%;}
+header.home {background-position: 140% -40px; }
+header.home input[type="search"]{width: auto;}
+.landing-slider .slide-item .left{width: 36%;}
+.mission-vision .img-part{width: 40%;}
+
+}
+
+
+/*----- Max-width 1350.98 -----*/
+@media (max-width: 1350.98px) {
+.owl-nav .owl-prev {left: 0;background: #fff;}
+.owl-nav .owl-next {right: 0;background: #fff;}
+.like-item figure{box-shadow: none;}
+.landing-slider .slide-item .left {background: #ffffffd4; padding: 10px 35px; width: 38%; margin: 15px; box-shadow: 0 0 19px 0px #0000001f; }
+.mission-vision .img-part{width: 35%;}
+.mission-vision {background-size: 13%; }
+.dropdown.lang-drp {margin-right: 25px; }
+.right-btns a {margin-right: 25px; } 
+header.home .center-sec{margin-right: 0;}
+.landing-slider .slide-item .left strong{color: #3799f363;}
+.landing-slider .owl-nav{margin: 15px; bottom: 0; }
+.you-like-ietm ul li span{font-size: 14px;}
+.page-list-slider .owl-nav .owl-next {right: 0;}
+.page-list-slider .owl-nav .owl-prev {left: 0;}
+.page-list-slider .owl-dots {display: none;}
+.page-list-slider .owl-nav {margin-top: -30px;}
+}
+
+
+/*Large devices (desktops, less than 1200px) - Class : LG*/
+@media (max-width: 1199.98px) {
+.hdr-btm .navbar-expand-lg .navbar-nav .nav-link {color: #fff; font-weight: bold; margin: 0 10px; opacity: 0.5; font-size: 14px; } 
+header ul.profile li{margin-left: 20px;}
+section.download-spotJobs .details{width: 100%;}
+section.download-spotJobs figure {position: relative;margin-right: -119px;top: 0px;}
+section.download-spotJobs figure img {width: auto;}
+section.download-spotJobs figure {margin-right: 0;}
+section.download-spotJobs .container {width: 100%;padding: 0;max-width: -webkit-fill-available;}
+section.download-spotJobs {padding: 0;}
+section.download-spotJobs .details {width: 80%;margin: 0 auto;display: block;text-align: center;}
+header.home .center-sec {position: absolute; left: 20px; top: 84px; }
+.landing-slider {width: 100%; margin: 70px 0; }
+.landing-slider .slide-item .left{width: 48%;}
+.landing-slider .slide-item .right{width: 48%;}
+header.home .hdr-top{margin-bottom: 70px;}
+header.home {background-position: 100% -40px; background-size: 86%; min-height: auto; } 
+.service-list.popular-services {justify-content: center; }
+.service-list.popular-services .service {margin: 10px; }
+header.default button.text-btn.dropdown-btn {width: 178px;}
+ header.default input[type="search"] {width: auto; min-width: auto; font-size: 14px; } 
+ #mydiv{left: inherit; right: 10px; z-index: 999; }
+.model-job-puck .modal-dialog{max-width: 70%;}
+form.form-signin label{font-size: 12px;}
+.sp-list .top-service-provider .reject p .btn-secondary-sm {padding: 10px 0px; min-width: 100%;}
+.sp-list .top-service-provider .reject p .btn-disable-sm {padding: 10px 0px; min-width: 100%;}
+.model-job-puck .modal-dialog{max-width: 90%;}   
+.model-service-list .service-list .service:nth-child(5n){margin-right: 15px;}
+.model-service-list .service-list .service:nth-child(5n+1){margin-left: 15px;}
+.model-service-list .service-list{justify-content: center;}
+}
+/*Medium devices (tablets, less than 992px) - Class : MD*/
+@media (max-width: 991.98px) {
+
+header .hdr-top form.search-city select {height: 45px;background-position: 15px center;}
+input[type="search"] {height: 45px;}
+button.navbar-toggler {right: 12px;z-index: 99999;position: absolute;top: -81px;color: #fff;width: 30px;height: 30px;padding: 0;}
+div#navbarSupportedContent {position: absolute;width: 100%;top: 8px;background: #fff;z-index: 999;box-shadow: 0 0px 20px 0px #00000038;}
+.hdr-btm .navbar-expand-lg .navbar-nav .nav-item .nav-link {    color: #3e87ef;}
+.hdr-btm .navbar-expand-lg .navbar-nav .nav-item.active .nav-link {color: #ffffff;background: #3e88ef;background-image: linear-gradient(-90deg, #3EBDEF 0%, #3E85EF 100%);}
+.hdr-btm .navbar-expand-lg .navbar-nav .nav-item:hover .nav-link {    color: #3e87ef;}
+.hdr-btm .navbar-expand-lg .navbar-nav .nav-item .nav-link {color: #3d8cef;padding: 9px 30px;margin: 0;opacity: 1;font-weight: 600;transition: 0.3s ease-in-out;}
+.hdr-btm .navbar-expand-lg .navbar-nav .nav-item .nav-link:hover {background: #3e88ef;color: #fff;opacity: 1;background-image: linear-gradient(-90deg, #3EBDEF 0%, #3E85EF 100%);}
+.hdr-btm .navbar-expand-lg .navbar-nav .nav-item.active .nav-link:before {display: none;}
+header .hdr-top{padding: 0 0 0 0; padding-right: 60px; }
+label.city:before{top: 15px;}
+header .hdr-top form.search-city {display: flex;position: absolute;top: 91px;}
+.search-dv {display: flex; float: right; flex-wrap: wrap; justify-content: flex-end; }
+.search-dv label {margin-bottom: 15px; } 
+.search-dv input.search-input {height: 40px; }
+.search-dv select {height: 40px; font-size: 14px; padding: 0 25px; }
+.search-dv label.city:before {top: 12px; }
+.mid-section .find-job-slider,.mid-section .detail-info {display: block; width: 80%; margin: 0 auto 30px; }
+.landing-slider .slide-item {display: flex;flex-wrap: wrap;flex-direction: row;}
+.landing-slider .slide-item .right {width: 46%;display: block;margin: 0 auto;order: 1;}
+.landing-slider .slide-item .left {order: 2;}
+.landing-slider .slide-item .left {width: 90%; display: block; margin: 30px auto; } 
+.landing-slider .owl-nav {margin: 0px; width: 100%; text-align: center; } 
+header.home .center-sec {position: absolute; left: 50%; top: 94px; transform: translateX(-50%); }
+.mission-vision .detail-part {padding-left: 0; z-index: 9; position: relative; }
+.mission-vision .img-part {opacity: 0.1; width: 50%; }
+header.default .center-sec {position: absolute;top: 64px;left: 40px;}
+header.default .center-sec button.text-btn.dropdown-btn {height: 45px;}
+header.default .center-sec .search-city:before {top: 10px;}
+.container{width: 98%!important;max-width: inherit; }
+/*jasmin*/
+.login-box .container{max-width: 96%;}
+.btn.btn-google, .btn.btn-facebook{margin: 30px 0;font-size: 12px;}
+.view-account .content-panel {padding: 50px 30px; padding-bottom: 0; float: left; }
+.service-provider-part{padding: 30px; }
+.service-provider{padding: 30px 98px;border: solid #ededed;border-width: 1px 0;}
+.login-box-contain{padding: 50px 30px;}
+.model-job-puck .modal-dialog{max-width: 90%;}
+.model-job-puck .modal-content .list-job{padding: 50px 40px;}
+.back-arrow{top: 25px;}
+.sp-list .sp-list-contain{justify-content: center;}
+}
+
+/*Small devices (landscape phones, less than 768px) - Class : SM*/
+@media (max-width: 767.98px) {
+header .hdr-top form.search-city {display: flex;position: absolute;top: 102px;left: 50%;transform: translateX(-50%);}
+header .hdr-top{margin-bottom: 68px; }
+button.navbar-toggler{top: -116px; }
+.hdr-btm a.post-a-job {right: 0; bottom: -52px; }
+.hdr-btm a.post-a-job img {width: 19px; }
+.hdr-btm a.post-a-job:before {display:none; } 
+.top-filter-bar{margin-bottom: 30px; flex-wrap: wrap; justify-content: center;}
+.search-dv {display: flex; float: none; flex-wrap: wrap; justify-content: center; margin-top: 30px; text-align: center; }
+.search-dv label {margin: 0; margin-bottom: 15px;width: 100%; } 
+.search-dv label.city {margin: 0; width: auto !important; }
+.job-puck .detail .info .left{width: 100%;} 
+.job-puck .detail .info .right {width: 100%; margin-top: 10px;text-align: left;
+    margin-bottom: 20px;} 
+input[type="search"] {min-width: auto; } 
+.job-puck .detail .info p {font-size: 15px; margin-bottom: 10px; line-height: 25px; }
+.job-puck .detail .info .left h4.date i{top: -6px;}
+.you-like-ietm,.top-service-provider{width: 70%; display: block; margin: 0px auto 20px;}
+footer ul {margin: 30px 0px 0;text-align: left;}
+footer {text-align: center;}
+footer .copy-right ul.social-icn {float: none;display: inline-block;}
+footer .copy-right {text-align: center;}
+.service-list.popular-services .service {margin: 10px; width: 29%; } 
+header.home .hdr-top {padding-right: 0; }
+.right-btns a.free-btn{    font-size: 12px;    padding: 6px 15px;}
+.right-btns a.free-btn {font-size: 12px; padding: 6px 13px; margin: 0; }
+header.default .center-sec {position: absolute; top: 90px; }
+.build-reputation strong{font-size: 25px; line-height: 35px; }
+.build-reputation{padding: 89px 30px;}
+.like-item a{width: 100%;}
+.page-list-slider .like-item span {display: block; }
+section.download-spotJobs .details ul li {margin: 15px; }
+.model-service-list .modal-dialog{width: 96%;}
+section.cms-pages {width: 95%; padding: 25px 0; margin: 25px auto; }
+section.cms-pages h1 {margin-bottom: 30px;line-height: 34px;}
+.faq-page .accordion{width: 100%;}
+.dropdown.lang-drp {margin-right: 25px; margin-bottom: 20px; } 
+.contact-us{width: 100%;}
+.owl-nav .owl-prev:before, .owl-nav .owl-next:before{font-size: 12px;line-height: 29px;}
+.owl-nav .owl-prev, .owl-nav .owl-next{width: 30px;height: 30px;}
+
+.page-list-slider figure img{margin: 17px auto;}
+.page-list-slider figure{width: 70px;height: 70px;}
+
+/*krunal*/
+.subscriptions .main-box{margin-bottom: 30px;}
+.res-mob-none{display: none;}
+.favorite-service-provider .top-service-detail.premium.service-providers .right {top: 0;}
+.favorite-service-provider .top-service-detail.premium.service-providers .right a {margin-bottom: 10px;}
+.favorite-service-provider .top-service-detail.premium.service-providers .right a i {font-size: 19px;}
+.favorite-service-provider .job-puck .detail {display: block;}
+.favorite-service-provider .job-puck .detail.service-providers-detail {display: block;}
+.favorite-service-provider .job-puck .detail.service-providers-detail .info {margin-top: 20px;}
+.favorite-service-provider .job-puck a.btn.btn-primary-sm {float: none;}
+
+/*jasmin*/
+.btn.btn-google, .btn.btn-facebook{margin: 20px 0;font-size: 12px;}
+.btn.btn-google{margin-bottom: 0;}
+.back-arrow{top: 20px;left: 20px;}
+h1{font-size: 24px!important;}
+h2{font-size: 18px!important;}
+h3{font-size: 16px!important;}
+.form-control,h4{font-size: 14px!important;}
+h5{font-size: 12px!important;}
+h6{font-size: 10px!important;}
+.login-box .custom-control a.justify-content-end.float-right{float: left!important;margin-left: 10px;}
+.btn{font-size: 12px!important;}
+.login-box-contain p{font-size: 12px;}
+.login-box-contain{padding: 30px 20px;}
+.login-box{padding: 15px;}
+.image-upload{width: 100%; }
+.drive-wrapper .drive-item {width: 100px; margin-right: 5px; float: none; }
+.drive-wrapper .drive-item-thumb {width: auto; height: 54px; }
+.view-account .content-panel {padding: 50px 20px; }
+.drive-wrapper .drive-item-thumb .fa {font-size: 24px; padding-top: 0; }
+.view-account .content-panel .avatar .figure img {float: none; margin-bottom: 15px; }
+.view-account .file-uploader {margin-bottom: 15px; }
+.sp-list .top-service-provider .reject p{margin-top: 0;padding-bottom: 20px;}
+.apply-for-the-job .btn-disable{margin-bottom: 30px!important;}
+.post-a-job .post-btn .btn-disable{margin-bottom: 30px!important;}
+.post-a-job .post-btn .pl-0{padding: 0 2rem!important;}
+.post-a-job .post-btn .pr-0{padding: 0 2rem!important;}
+.setting .service-provider{float: left;width: 100%;}
+.rating-slider::-webkit-slider-thumb {-webkit-appearance: none; appearance: none; width: 18px; height: 18px; border-radius:50%; /* Rectangle: */ background-image: linear-gradient(-90deg, #3E85EF 0%, #3EBDEF 100%); box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10); border-radius: 13.25px; cursor: pointer; }
+.rating-slider::-moz-range-thumb {width: 18px; height: 18px; /* Rectangle: */ background-image: linear-gradient(-90deg, #3E85EF 0%, #3EBDEF 100%); box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10); border-radius: 13.25px; cursor: pointer; }
+.service-provider{padding: 30px 15px;}
+.user-review .user-info{padding: 50px 20px;}
+.setting .service-provider h4{display: block;}
+.setting .service-provider .btn{float: left;margin-top: 20px!important;}
+.model-job-puck .modal-content .list-job{padding: 50px 30px;}
+.model-job-puck .modal-dialog{max-width: 100%;}
+.favorite-service-provider.hiring-request-listing h4.date.float-right.w-100 {float: left!important; width: auto!important; }
+.left.text-right.float-right {text-align: left!important; float: left!important; }
+.favorite-service-provider.hiring-request-listing h4.date.float-right.w-100 {margin-right: 20px; }
+.favorite-service-provider.hiring-request-listing span.yl-bg.d-block {display: inline-block!important; margin-right: 20px; }
+.favorite-service-provider.hiring-request-listing .info h3 {float: left; text-align: left; width: 100%; }
+.favorite-service-provider.hiring-request-listing .job-puck .detail.service-providers-detail .info p{line-height: inherit;}
+.favorite-service-provider.hiring-request-listing h4.budget.float-right{float: left!important;}
+.favorite-service-provider.hiring-request-listing .job-puck .detail.service-providers-detail .info p{display: inline-block;}
+.sp-list .sp-list-contain{justify-content: center;}
+.sp-list.rating .top-service-provider{margin: 0;}
+.model-service-list .modal-content {padding: 50px 40px; }
+.modal-content h4{text-align: center;}
+.module-inner .form-horizontal label.search-btn-sm button{top: 0;}
+.user-review form.form-horizontal fieldset{position: relative;}
+.user-review .image-upload{top: 140px;}
+
+}
+
+
+/*Extra small devices (portrait phones, less than 576px) - Class : XS*/
+@media (max-width: 575.98px) {
+
+.you-like-ietm,.top-service-provider {width: 100%; }
+.top-service-provider ul li .top-service-detail {padding-left: 20px; padding-top: 110px; text-align: center; }
+.top-service-provider ul li .top-service-detail h4.star {}
+.top-service-provider ul li .top-service-detail > i, i.profile-image {left: 50%; transform: translateX(-50%); }
+.you-like-ietm ul{    padding: 25px 15px 0;}
+.job-puck {padding: 15px;}
+.job-puck .detail {flex-wrap: wrap;}
+.job-puck .detail .img-dv {display: block;margin: 15px auto;}
+.job-puck h3 {display: block;text-align: center;margin-bottom: 20px;}
+.job-puck a.btn.btn-primary-sm {float: none;margin: 0 auto;display: block;width: 150px;}
+.job-puck .detail .info p {margin-bottom: 15px;}
+.job-puck .detail .info .right {text-align: center;}
+.navbar-brand {width: 100%;margin: 7px 0;margin-bottom: 30px;text-align: left;}
+header{padding: 0;}
+header .hdr-top {flex-wrap: wrap;padding: 0;text-align: center;margin: 0px 0 89px;}
+header .hdr-top form.search-city {top: 120px;flex-wrap: wrap;width: 90%;}
+header {padding-top: 0;padding-bottom: 20px;}
+header label.search-all button{width: 40px;height: 46px;}
+header ul.profile {width: 100%;justify-content: center;}
+button.navbar-toggler {top: -183px;right: -10px;}
+header .hdr-top form.search-city select {}
+header .hdr-top form.search-city label.city select {width: 100%;min-width: auto;border-radius: 8px;}
+header .hdr-top form.search-city label {width: 100%;}
+input[type="search"] {border-radius: 8px;font-size: 12px;width: 100%;}
+div#navbarSupportedContent {top: -138px;border-radius: 3px;}
+header ul.profile {display: flex;margin-top: -15px;} 
+.hdr-btm a.post-a-job{display: none;}
+.top-service-slider .top-service-provider ul li .top-service-detail {padding-left: 20px; padding-top: 110px; }
+footer .copy-right ul.social-icn li a{margin-left: 5px;}
+.owl-carousel.find-job .owl-dots {display: flex;width: 100%;top: 10px;position: relative;left: inherit;flex-wrap: wrap;}
+.owl-carousel.find-job .owl-dots .owl-dot{width: 30px;height: 30px !important;}
+.owl-carousel.find-job div {height: auto;margin-top: 10px;top: 0;position: relative;}
+.content-carousel {margin: 0;margin-top: 0;}
+.owl-carousel.find-job .owl-dots .owl-dot {margin-right: 8px;}
+.mid-section .find-job-slider, .mid-section .detail-info{width: 100%;}
+.mid-section .find-job-slider {width: 85%; }
+.detail-info.jobs-detail .sub-info.c-info i {left: 40px; top: -5px; } 
+.you-may-like-slider .like-item figure img {margin: 0 auto; display: block; }
+.you-may-like-slider .like-item {text-align: center; }
+.you-may-like-slider .like-item figure {max-width: 263px; display: block; margin: 0 auto 15px; }
+h2 {display: block; text-align: center;     line-height: 35px;} 
+.testimonial.slider .owl-nav .owl-next, .testimonial.slider .owl-nav .owl-prev {width: 40px; height: 40px; border-radius: 100%; background: #F2F2F2; }
+.testimonial.slider .owl-nav .owl-next:before, .testimonial.slider .owl-nav .owl-prev:before {font-size: 16px; line-height: 41px; } 
+ul.app-btn li a {max-width: 180px; margin-bottom: 15px; }
+ul.app-btn li  {margin: 0 !important    ; } 
+section.download-spotJobs .details p {margin-bottom: 50px; width: 100%; font-size: 15px; }
+header.home a.navbar-brand {display: block;text-align: center;margin: 15px 0;}
+header.home {background: transparent;}
+header.home .center-sec {position: relative;left: inherit;top: inherit;transform: inherit;display: block;margin: 0 auto;}
+header.home input[type="search"] {border-radius: 0;}
+header.home .right-btns {display: block;margin: 15px auto;}
+header.home .right-btns a {color: #3689f3;}
+header.home .right-btns button.filter {color: #4693f8;}
+header.home .right-btns a.free-btn {letter-spacing: 1px;order: 1px solid #5ca0fd;}
+.dropdown.lang-drp:before {color: #22262c;}
+.mission-vision{background: transparent;}
+.mission-vision .detail-part .sub-sec.vision {padding-left: 0; }
+.mission-vision .detail-part .sub-sec h2{text-align: left;}
+header.home .hdr-top {height: auto;margin-bottom: 0;}
+.landing-slider {margin-top: 30px;    margin-bottom: 20px;}
+.landing-slider .slide-item .right {width: 100%;}
+.landing-slider .slide-item .left h1 {font-size: 25px;line-height: 35px;}
+.landing-slider .slide-item .left strong {font-size: 50px;line-height: 75px;}
+.landing-slider .slide-item .left p {margin: 20px 0;font-size: 15px;}
+.service-list.popular-services .service{width: 43%;}
+.mission-vision .detail-part,
+.mission-vision {margin-bottom: 0; }
+section.download-spotJobs .details {padding: 0; }
+header.home .center-sec .dropdown-btn {border-radius: 0; } 
+h2.popular-title {margin: 30px 0 20px; display: flex; flex-wrap: wrap; text-align: center; justify-content: center; }
+header.default input[type="search"] {width: 220px; border-radius: 0; max-width: 220px; min-width: 220px;}
+header.default .center-sec {top: 130px;left: 50%;transform: translateX(-50%);}
+.extra-menu {max-width: 280px; text-align: left; right: -50px; top: 130%; }
+header.default .center-sec {display: inline-block; }
+header.default .center-sec button.text-btn.dropdown-btn {width: 220px; border-radius: 0; }
+header.default {padding-bottom: 40px; }
+.contact-us{padding: 0;}
+
+.next-prev-pages a.next-page, .next-prev-pages .prev-page {width: 125px;height: 128px;line-height: 120px;padding: 0 14px;}
+.next-prev-pages a.prev-page {padding-right: 10px;}
+.sub-info .top-title {flex-wrap: wrap; justify-content: center; }
+.sub-info .top-title .left {text-align: center; margin-bottom: 10px; }
+
+/*krunal*/
+.job-puck {padding: 15px; position: relative; text-align: center;}
+.job-puck .right-top {position: relative;left: inherit;bottom: inherit;display: block;text-align: center;float: none;}
+.job-puck.sec-ver i.edit-del {position: absolute; top: 15px; right: 20px; }
+.notifications-title h2{font-size: 30px;}
+.notifications .customer-detail a{font-size: 13px;}
+.detail-info.jobs-detail .sub-info .infomation-data .new-version .rating-chat {float: left; margin-bottom: 10px;}
+.favorite-service-provider .top-service-detail.premium.service-providers i.profile-image.verified.service{left: 40px;}
+.favorite-service-provider .top-service-detail.premium.service-providers {padding-left: 0; width: 100%; padding-left: 0px; padding-top: 110px; text-align: center; }
+.favorite-service-provider .top-service-detail.premium.service-providers i.profile-image.verified.service {display: block; left: 45%; transform: translateX(-50%);}
+.top-service-provider ul li .top-service-detail > i figure, i.profile-image figure {display: block; }
+.favorite-service-provider .job-puck .detail.service-providers-detail .img-dv img {max-width: 100px; height: 100px; }
+.favorite-service-provider .job-puck .detail.service-providers-detail .img-dv {text-align: center;margin: 0 auto;display: block;}
+.favorite-service-provider .job-puck .detail.service-providers-detail .img-dv ul{display: block;}
+.favorite-service-provider .job-puck .detail.service-providers-detail .info {text-align: center;}
+.favorite-service-provider .top-service-detail.premium.service-providers .right {right: 0;}
+.favorite-service-provider .job-puck .detail.service-providers-detail .img-dv ul li{width: 27%;}
+.favorite-service-provider .job-puck .detail.service-providers-detail .img-dv img {max-width: 100%; height: auto;}
+.favorite-service-provider .top-service-detail.premium.service-providers .rating-detail span.yl-btn{display: block; margin-left: 0;}
+.job-puck .detail .info .left h4.date {display: block; width: 205px; margin: 10px auto;}
+
+/*jasmin*/
+.login-box .custom-control-label {float: left!important; line-height: 26px; }
+.login-box .custom-control a.justify-content-end.float-right{float: left!important;margin-left: 10px;}
+.sp-list .top-service-provider span.yl-bg{float: none;}
+.chats .chat-area .incoming-msg,.chats .chat-area .outgoing-msg{padding: 10px 10px; max-width: 250px;}
+.chats .outgoing-msg{min-width: 150px;}
+.incoming-msg h4{font-size: 12px!important;}
+.outgoing-msg h4{font-size: 12px!important;}
+.chats .chat-area .incoming-msg{margin-bottom: 20px;}
+.chats .chat-area .outgoing-msg{margin-bottom: 20px;}
+.chats .right-side .send-area{width: 84%;}
+.favorite-service-provider.hiring-request-listing .top-service-detail.premium.service-providers{padding-left: 0!important;}
+.hiring-request-listing .job-puck .top-service-detail.premium.service-providers h4 {text-align: center; display: block; float: none!important; }
+.hiring-request-listing .top-service-detail.premium.service-providers .rating-detail span.yl-btn{display: inline-block!important;}
+.hiring-request-listing .top-service-detail.premium.service-providers .rating-detail{width: inherit!important;}
+.hiring-request-listing .list-job .job-puck .left.text-right.float-right {width: 100%; }
+.forgot-id.float-right{float: left!important;margin-left: 34px;width: 100%;margin-bottom: 20px;}
+.model-service-list .service-btn{display: block;}
+.favorite-service-provider.hiring-request-listing .info h3{text-align: center;}
+.detail-info.jobs-detail .sub-info.c-info .top-service-detail {padding-left: 90px;}
+.chats .notifications .notifications-card .customer-detail h4 span{float:left;}
+.chats .notifications .notifications-card .customer-detail h4 {display: block; width: 100%; }
+.model-service-list .modal-content {padding: 50px 30px; }
+.modal-content h4{text-align: center;}
+.model-rejection .modal-content {padding: 30px 15px; }
+}
+
+@media (max-width: 400px) {
+
+.sub-list ul li {width: 100%;text-align: center;margin: 10px 0 5px;}
+.sub-list ul li a {padding: 0px 0 10px 0; margin: 0; }
+.customer-detail a{font-size: 14px;}
+.detail-info.jobs-detail .sub-info .infomation-data h4.budget {display: block;}
+.detail-info.jobs-detail .sub-info .infomation-data .new-version .rating-chat {display: block; width: 100%; float: left; }
+.sub-info .top-title.screen{display: inherit;width: 100%;}
+.sub-info .top-title.screen .right{text-align: right;}
+.sub-info .top-title.screen2 .right {display: flex;}
+.detail-info.jobs-detail .top-title.screen2  .right i.edit-del{margin-top: 15px;}
+.post-a-job .uplode .pic-listing{max-width: 150px;}
+}
